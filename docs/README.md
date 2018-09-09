@@ -1,3 +1,5 @@
+
+
 # MQTT motion detection
 
 This project aims to provide an open source, DIY version for building your own motion detection sensor, for usage with Domoticz or any other MQTT implementation.
@@ -310,6 +312,12 @@ Connect this node to Node 6: *MQTT out* as well.
 The complete flow should look something like this:
 
 ![Node red flow for MQTT Domoticz motion sensor](node-red-flow.png)
+
+
+
+## Step 5: Configure Domoticz Events for state changes
+
+You can now create Events based on the status of the variable you made in step 3. Combine the variable with the Sun status to create motion triggered night lights!
 
 # To Do / Ideas
 
