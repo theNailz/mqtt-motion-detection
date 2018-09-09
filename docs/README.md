@@ -8,16 +8,16 @@ Source: [https://thenailz.github.io/mqtt-motion-detection/](https://thenailz.git
 
 ### Hardware
 
-- NodeMCU
-- PIR sensor
+- [NodeMCU](http://s.click.aliexpress.com/e/b4eIji0Y)
+- [PIR sensor](http://s.click.aliexpress.com/e/NZE7tdI)
 - Wires
 
 ### Software
 
-- Arduino IDE
-- MQTT server (Raspberry PI or otherwise)
-- Node-Red
-- Domoticz
+- [Arduino IDE](https://www.arduino.cc/en/Main/Software)
+- [MQTT server](http://mqtt.org/)
+- [Node-Red](https://nodered.org/)
+- [Domoticz](http://www.domoticz.com/)
 
 ## Step 1: Building the hardware
 
