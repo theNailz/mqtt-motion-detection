@@ -2,7 +2,7 @@
 
 This project aims to provide an open source, DIY version for building your own motion detection sensor, for usage with Domoticz or any other MQTT implementation.
 
-Source: https://thenailz.github.io/mqtt-motion-detection/
+Source: [https://thenailz.github.io/mqtt-motion-detection/](https://thenailz.github.io/mqtt-motion-detection/)
 
 ## Requirements
 
