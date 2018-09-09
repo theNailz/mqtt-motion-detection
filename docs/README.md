@@ -324,3 +324,4 @@ You can now create Events based on the status of the variable you made in step 3
 - ESP.deepSleep()
 - Use Interrupts
 - Research Node Red delay function for usage without the key/value store.
+- Instructions for scaling this setup. (Add more sensors, change `device_name`, add NodeRed mapping for topic/variable idx?)
