@@ -309,7 +309,7 @@ Connect this node to Node 6: *MQTT out* as well.
 
 The complete flow should look something like this:
 
-![1536518766005](C:\Users\Niels\Desktop\node-red-flow)
+![Node red flow for MQTT Domoticz motion sensor](node-red-flow.png)
 
 # To Do / Ideas
 
