@@ -180,6 +180,8 @@ We will filter all values which are not `1`, to make sure we're not triggering o
 - Property: `msg.payload`
 - Rule 1: `==` `string ` `1`
 
+Connect this node to Node 1.
+
 #### Node 3.1: Function
 
 This node will set a timestamp on the payload to set the latest trigger timestamp.
@@ -193,6 +195,8 @@ This node will set a timestamp on the payload to set the latest trigger timestam
   return msg;
   ```
 
+Connect this node to Node 2.
+
 #### Node 4.1: key-value-write
 
 This node will write the timestamp to disk.
@@ -202,6 +206,8 @@ This node will write the timestamp to disk.
 - Key: *blank*
 - Value: *blank*
 - Name: `Persist timestamp`
+
+Connect this node to Node 3.1.
 
 #### Node 5.1: function
 
@@ -222,6 +228,8 @@ This node will set a new payload for Domoticz, to update our created User Variab
 
 Make sure to update the `idx` value with the `idx`value of your User Variable. The `command` and `value` should not be changed!
 
+Connect this node to Node 4.1.
+
 #### Node 6: MQTT out
 
 This node will publish the messages sent to it.
@@ -231,6 +239,8 @@ This node will publish the messages sent to it.
 - QoS: *blank*
 - Retain: *blank*
 - Name: blank
+
+Connect this node to Node 5.1.
 
 #### Node 3.2: delay
 
@@ -299,11 +309,10 @@ Connect this node to Node 6: *MQTT out* as well.
 
 The complete flow should look something like this:
 
-![node-red-flow.png](node-red-flow.png)
+![1536518766005](C:\Users\Niels\Desktop\node-red-flow)
 
 # To Do / Ideas
 
 - ESP.deepSleep()
 - Use Interrupts
 - Research Node Red delay function for usage without the key/value store.
-
