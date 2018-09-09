@@ -38,7 +38,7 @@ You could also power the PIR sensor by connecting the ESP's **Vin** pin to the P
 
 Start up the Arduino IDE, configure it for usage with an ESP8266, and load up the following sketch:
 
-```Ardu
+```c
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
